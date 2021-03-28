@@ -14,10 +14,12 @@
   <a href="MyPlant.html">MyPlant</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
-     <form method="get" action="http://www.google.com/search">
-<input type="text"   name="q" size="31"
-maxlength="255" value="" />
-<input type="submit" value="Google Search" />
+    <form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+  <input type="hidden" name="cref" value="" />
+  <input type="hidden" name="ie" value="utf-8" />
+  <input type="hidden" name="hl" value="" />
+  <input name="q" type="text" size="40" />
+  <input type="submit" name="sa" value="Search" />
 
       <script type="text/javascript" src="index.js"></script>
   </body>
