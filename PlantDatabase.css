@@ -23,12 +23,16 @@ table {
 th,td {
   padding: 20px;
   text-align: center;
+  color: "white";
+
 
 th {
   height: 70px;
   font-size: 40px;
   font-family: "Lucida Console";
   background-color:#8FBC8F
+  color: "white";
+
 }
 
 td {
@@ -37,4 +41,6 @@ td {
   font-size: 25px;
   font-family: "Lucida Console";
   background-color: #afcfaf;
+  color: "white";
+
 }
